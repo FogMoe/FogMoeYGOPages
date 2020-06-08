@@ -13,6 +13,11 @@
             font-size: 30px;
             font-weight:bold;
         }
+        p{
+            text-align: center;
+            font-size: 20px;
+            color:rgb(0,0,255);
+        }
         .divcss5{text-align:center}
     </style>
 </head>
@@ -23,14 +28,16 @@
     </h1>
     <h2>YGOPRO服务器主机信息ygo.fog.moe 端口666</h2>
     <br>
-    <div class="divcss5">
-        <script>
+    <p id="ymd"></p>
+    <script>
         var date = new Date()
         var y = date.getFullYear();
         var m = date.getMonth()+1;
         var d = date.getDate(); 
         document.getElementById("ymd").innerHTML = "当前禁限卡表："+y+"-"+m+"-"+d;
-        </script>
+    </script>
+    <br>
+    <div class="divcss5">
         <img src="/fogmoediy.png"  alt="最新禁卡表" />
     </div>
     
