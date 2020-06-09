@@ -1,60 +1,87 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <title>Ygopro FogMoe DIYcard Server</title>
-    <style type="text/css">
-        h1{
-            text-align: center;
-            font-size: 50px;
-        }
-        h2{
-            text-align: center;
-            font-size: 30px;
-            font-weight:bold;
-        }
-        p.mobile{
-            text-align: center;
-            font-size: 15px;
-        }
-        p.jieshao{
-            text-align: center;
-            font-size: 15px;
-            color:rgb(255,0,0);
-        }
-        .divcss5{text-align:center}
-        p.ymd{
-            text-align: center;
-            font-size: 20px;
-            color:rgb(0,0,255);
-        }
-        .divcss5{text-align:center}
-    </style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>YGOPro FogMoe DIY服务器</title>
+<meta name="keywords" content="游戏王,YGOPro,FogMoe服,联机,服务器,DIY卡">
+<meta name="description" content="YGOPro FogMoe服，一个游戏王YGOPro自定义卡片的联机对战服务器。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1><a href="https://jq.qq.com/?_wv=1027&k=AfM31tgB">QQ群：213534956</a>
-    	<br>
-    	<a href="https://lanzous.com/iLXGMddqqpi">点击下载DIY额外卡组拓展包数据更新器</a>    	
-    </h1>
-    <p class="mobile"><a href="https://tpkfb-1255475961.cos.ap-shanghai.myqcloud.com/FogMoe-DIY-data.zip">zip DIY拓展数据包</a></p>
-    <br>
-    <h2>YGOPRO服务器主机信息ygo.fog.moe 端口666</h2>
-    <p class="jieshao">包含系列：未来城，傀蚀书，铃树社，蟑蠊族，军火，精灵王，界王，邪界幻灵，植占师，荒兽，堕世魔镜，夜刃姬，韶光，猫和老鼠，异生兽</p>
-    <br>
-    <p id="ymd" class="ymd"></p>
-    <script>
-        var date = new Date()
-        var y = date.getFullYear();
-        var m = date.getMonth()+1;
-        var d = date.getDate(); 
-        document.getElementById("ymd").innerHTML = "当前服务器Diy特殊禁限卡表："+y+"-"+m+"-"+d;
-    </script>
-    <div class="divcss5">
-        <img src="/fogmoediy.png"  alt="最新禁卡表" />
+<body class="index">
+<header class="container">
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">开关导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://diy.fog.moe/">YGOPro FogMoe DIY服务器</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                <li class="index"><a href="http://diy.fog.moe/">首页</a></li>                
+                </ul>
+                <p class="navbar-text navbar-right">主机信息(IP)：<kbd>diy.fog.moe</kbd>
+                    <kbd>666</kbd></p>
+            </div>
+            </div>
+        </nav>
     </div>
-    
-</body>
-</html>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+           <p></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="title">YGOPro FogMoe DIY服务器</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p>QQ群：<a href="https://jq.qq.com/?_wv=1027&k=AfM31tgB">213534956</a></p>
+            <p><a href="https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards/releases/download/1.0/Card-Data-Download-Updater.exe">点击下载</a>DIY额外卡组拓展包数据更新器（电脑用户）</p>
+            <p>安卓请下载<a href="https://tpkfb-1255475961.cos.ap-shanghai.myqcloud.com/FogMoe-DIY-data.zip">zip文件</a>DIY拓展数据包</p>
+            <p>FogMoe自定义卡片GitHub库：<a href="https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards">https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards</a></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="title">介绍</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p>包含系列：未来城，傀蚀书，铃树社，蟑蠊族，军火，精灵王，界王，邪界幻灵，植占师，荒兽，堕世魔镜，夜刃姬，韶光，猫和老鼠，异生兽</p>
+            <p class="buttons">
+                <a class="btn btn-default btn-sm" href="./lflist.conf" target="_blank">
+                    <span class="glyphicon glyphicon-download-alt"></span> 下载本服禁卡表
+                </a>
+            </p>
+        	<p><img src="./fogmoediy.png"  alt="最新禁卡表" /></p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>© 2020 <a href="https://fog.moe/" target="_blank">FogMoe By Kc</a>
+            </p></div>
+        </div>
+    </div>
+</footer>
+
+</body></html>
