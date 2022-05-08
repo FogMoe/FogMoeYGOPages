@@ -90,13 +90,17 @@ td
 .xl66
 	{mso-style-parent:style0;
 	color:black;
+	font-size:18.0pt;
+	font-weight:700;
 	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;}
+	mso-font-charset:134;
+	mso-number-format:"\@";
+	text-align:left;
+	vertical-align:top;
+	white-space:normal;}
 .xl67
 	{mso-style-parent:style0;
 	color:black;
-	font-size:18.0pt;
-	font-weight:700;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	mso-number-format:"\@";
@@ -107,11 +111,7 @@ td
 	{mso-style-parent:style0;
 	color:black;
 	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;
-	mso-number-format:"\@";
-	text-align:left;
-	vertical-align:top;
-	white-space:normal;}
+	mso-font-charset:134;}
 .xl69
 	{mso-style-parent:style0;
 	color:black;
@@ -128,12 +128,6 @@ td
 	text-align:center;
 	white-space:normal;}
 .xl71
-	{mso-style-parent:style0;
-	color:black;
-	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;
-	text-align:center;}
-.xl72
 	{mso-style-parent:style62;
 	color:#0563C1;
 	font-family:微软雅黑, sans-serif;
