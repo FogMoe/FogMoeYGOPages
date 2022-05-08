@@ -21,12 +21,12 @@ ruby
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:����;
+	font-family:等线;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border:none;
 	mso-protection:locked visible;
-	mso-style-name:����;
+	mso-style-name:常规;
 	mso-style-id:0;}
 td
 	{mso-style-parent:style0;
@@ -39,7 +39,7 @@ td
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:����;
+	font-family:等线;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	mso-number-format:General;
@@ -53,44 +53,51 @@ td
 	mso-rotate:0;}
 .xl65
 	{mso-style-parent:style0;
-	color:black;
-	font-size:18.0pt;
-	font-weight:700;
-	font-family:΢���ź�, sans-serif;
-	mso-font-charset:134;
-	mso-number-format:"\@";
-	text-align:left;
-	vertical-align:top;
-	white-space:normal;}
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;}
 .xl66
 	{mso-style-parent:style0;
 	color:black;
-	font-family:΢���ź�, sans-serif;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;}
+.xl67
+	{mso-style-parent:style0;
+	color:black;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	text-align:center;}
+.xl68
+	{mso-style-parent:style0;
+	color:black;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	mso-number-format:"\@";
 	text-align:left;
 	vertical-align:top;
 	white-space:normal;}
-.xl67
+.xl69
+	{mso-style-parent:style0;
+	color:black;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	mso-number-format:"\@";
+	text-align:left;
+	vertical-align:top;
+	white-space:normal;}
+.xl70
+	{mso-style-parent:style0;
+	color:black;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	white-space:normal;}
+.xl71
 	{mso-style-parent:style0;
 	color:black;
 	font-size:14.0pt;
 	font-weight:800;
-	font-family:΢���ź�, sans-serif;
+	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	text-align:center;
-	white-space:normal;}
-.xl68
-	{mso-style-parent:style0;
-	font-family:΢���ź�, sans-serif;
-	mso-font-charset:134;}
-.xl69
-	{mso-style-parent:style0;
-	font-family:΢���ź�, sans-serif;
-	mso-font-charset:134;
-	text-align:center;}
-.xl70
-	{mso-style-parent:style0;
-	font-family:΢���ź�, sans-serif;
-	mso-font-charset:134;
 	white-space:normal;}
