@@ -26,7 +26,7 @@
                 <ul class="nav navbar-nav">
                 <li class="index"><a href="http://diy.fog.moe/">首页</a></li>
                 <li class="download"><a href="./contribution.html">卡片投稿</a></li>
-                <li class="usage"><a href="./cards.html">卡组说明</a></li>
+                <li class="usage"><a href="./cards.html">卡包说明</a></li>
                 <li class="changelog"><a href="./about.html">关于</a></li> 				  	
                 </ul>
                 <p class="navbar-text navbar-right">主机信息(IP)：<kbd>ygo.fog.moe</kbd>
@@ -52,16 +52,11 @@
     <div class="row">
         <div class="col-md-12">                        
             <p class="buttons">
-                <a class="btn btn-default btn-sm" href="http://mp.weixin.qq.com/s?__biz=MzkwNzE3MTg0NA==&mid=2247483655&idx=1&sn=316d5e5da143ad071bbc93cb3004df2e&chksm=c0dc006cf7ab897aaeb5bdc64a329e6a12a2d2f7a16bbdb09978e247b1c4de783faa9b8d6597&scene=18#wechat_redirect">
-                    <span class="glyphicon glyphicon-download-alt"></span> 内容已经过时，近期即将更新
+                <a class="btn btn-default btn-sm" href="https://github.com/scarletkc/ygopro-FogMoe-card-database">
+                    <span class="glyphicon glyphicon-inbox"></span> FogMoe卡片数据GitHub库
                 </a>
-                <a class="btn btn-default btn-sm" href="https://tpkfb-1255475961.cos.ap-shanghai.myqcloud.com/FogMoe-DIY-data.zip">
-                    <span class="glyphicon glyphicon-download-alt"></span> 内容已经过时，近期即将更新
-                </a>
-				<p><strong>QQ群：<a href="https://jq.qq.com/?_wv=1027&k=AfM31tgB">213534956</a> 内容已经过时，近期即将更新</strong></p>
-                <p>电脑版Windows的玩家用DIY自动下载更新器（exe放到ygopro目录，以管理员身份运行）。安卓和Mac的玩家把ZIP压缩包解压到ygocore文件夹里的expansions文件夹里，启用拓展卡包。Linux的玩家可在ygopro/expansions文件夹里克隆<a href="https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards">GitHub库</a>的最后一次提交。</p>
-				<p>FogMoe自定义卡片GitHub库：<a href="https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards">https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards</a></p>
-				<p><i>&emsp;如果你没有<u>原版YGOPro</u>，请<a href="http://ygocore.ys168.com/" target="_blank">访问</a>或<strong>加群</strong>下载。（安卓请使用<a href="https://www.taptap.com/app/37972" target="_blank">YGOMobile</a>）</i></p>
+				<p><strong>QQ群：<a href="https://jq.qq.com/?_wv=1027&k=AfM31tgB">213534956</a></strong></p>                
+				<p>你需要使用原版<u>YGOPro</u>或<u>YGOMobile</u>进行游戏。</p>
             </p>
         </div>
     </div>
@@ -74,16 +69,25 @@
 
     <div class="row">
         <div class="col-md-12">
-            <p>内容已经过时，近期即将更新!!</p>
-			<p>本服主机信息<kbd>ygo.fog.moe</kbd>端口<kbd>956</kbd> 在主机密码处输入任意其他文字，可以以那个文字为房间名建立房间，让你的对手输入同样的文字，即可加入房间。在房间名前加<kbd>M#</kbd>可以设置房间为比赛模式。加<kbd>T#</kbd>可以设置房间为2V2模式。</p>
-            <p>卡池为最新OCG+TCG+FogMoe自定义卡，默认回合时间300秒，禁/限卡表为OCG最新卡表+本服自定义卡特殊规制。</p>
+			<p>本服务器主机信息<kbd>ygo.fog.moe</kbd>端口<kbd>956</kbd> 在主机密码处输入任意其他文字，可以以那个文字为房间名建立房间，让你的对手输入同样的文字，即可加入房间。在房间名前加<kbd>M#</kbd>可以设置房间为比赛模式。</p>
+            <p>
+                本服务器适用于有一定游戏王OCG基础与有一定电脑常识的玩家进行游戏，对战环境速度整体偏慢，可以进行2vs2决斗。
+                <br>
+                本服务器所有卡片数据独立于OCG卡池，全部为FogMoe自定义卡片，暂不设定 禁止/限制 卡表，初始LP是10000点，初始手卡是4张，默认回合时间是300秒。
+                <br>
+                为了便于平衡卡片强度，以及增加服务器内的卡片丰富多样性。服务器内的卡片根据卡片在卡组中的重要程度、强度等分为不同稀有度，一个系列的卡片需要有背景故事说明。  
+                <br>              
+                服务器内一个系列的卡片或基本卡的合集称为一个FogMoe卡包。（等Kc先写完一些基本泛用卡示范，后面会用个数据表结构作为卡片收录查询工具）
+                <br>
+                卡片密码范围：000000 ~ 999999
+            </p>
 			<p class="buttons">
-                <a class="btn btn-default btn-sm" href="./lflist.conf" download="lflist.conf">
+                <!--<a class="btn btn-default btn-sm" href="./lflist.conf" download="lflist.conf">
                     <span class="glyphicon glyphicon-download-alt"></span> 下载本服禁/限卡表文件
                 </a>
                 <a class="btn btn-default btn-sm" href="https://github.com/scarletkc/FogMoe-ygopro-server-custom-cards/blob/master/NowVersion.TXT">
                     <span class="glyphicon glyphicon-ice-lolly-tasted" target="_blank"></span> 查看最近更新记录
-                </a>
+                </a> -->
             </p>
 			</br>
 			            <div>
@@ -92,7 +96,7 @@
                         <tr>
                             <th>
                                 <p>
-                                    <strong>自定义卡片池包含系列：</strong>
+                                    <strong>FogMoe卡包：</strong>
                                 </p>
                             </th>
                             <th>
@@ -106,36 +110,36 @@
                         <tr>
                             <td>
                                 <p lang="en-US">
-                                    <a href="./cards.html#wlc">未来城</a>
+                                    <a href="./cards.html#wlc">预留位</a>
                                 </p>
                             </td>
                             <td>
                                 <p lang="en-US">
-                                    展开型灵摆融合卡组。
+                                    预留位
                                 </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <p lang="en-US">
-                                    <a href="./cards.html#zlsn">真理少女</a>
+                                    <a href="./cards.html#zlsn">预留位</a>
                                 </p>
                             </td>
                             <td>
                                 <p lang="en-US">
-                                    另类以解放为核心的展开型卡组。
+                                    预留位
                                 </p>
                             </td>
                         </tr>	
                         <tr>
                             <td>
                                 <p lang="en-US">
-                                    <a href="./cards.html#sys">四元素</a>
+                                    <a href="./cards.html#sys">预留位</a>
                                 </p>
                             </td>
                             <td>
                                 <p lang="en-US">
-                                    beat类中速融合卡组。（强度适中，推荐）
+                                    预留位
                                 </p>
                             </td>
                         </tr>						
@@ -150,7 +154,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>© 2020-2021 <a href="https://fog.moe/" target="_blank">FogMoe By Kc</a>
+                <p>© 2022 <a href="https://fog.moe/" target="_blank">FogMoe</a>
             </p></div>
         </div>
     </div>
