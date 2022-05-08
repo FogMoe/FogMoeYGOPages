@@ -28,6 +28,38 @@ ruby
 	mso-protection:locked visible;
 	mso-style-name:常规;
 	mso-style-id:0;}
+.style62
+	{color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:超链接;
+	mso-style-id:8;}
+a:link
+	{color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+a:visited
+	{color:#954F72;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
 td
 	{mso-style-parent:style0;
 	padding-top:1px;
@@ -63,14 +95,17 @@ td
 .xl67
 	{mso-style-parent:style0;
 	color:black;
+	font-size:18.0pt;
+	font-weight:700;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
-	text-align:center;}
+	mso-number-format:"\@";
+	text-align:left;
+	vertical-align:top;
+	white-space:normal;}
 .xl68
 	{mso-style-parent:style0;
 	color:black;
-	font-size:18.0pt;
-	font-weight:700;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
 	mso-number-format:"\@";
@@ -82,17 +117,8 @@ td
 	color:black;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
-	mso-number-format:"\@";
-	text-align:left;
-	vertical-align:top;
 	white-space:normal;}
 .xl70
-	{mso-style-parent:style0;
-	color:black;
-	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;
-	white-space:normal;}
-.xl71
 	{mso-style-parent:style0;
 	color:black;
 	font-size:14.0pt;
@@ -101,3 +127,15 @@ td
 	mso-font-charset:134;
 	text-align:center;
 	white-space:normal;}
+.xl71
+	{mso-style-parent:style0;
+	color:black;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	text-align:center;}
+.xl72
+	{mso-style-parent:style62;
+	color:#0563C1;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	text-align:center;}
