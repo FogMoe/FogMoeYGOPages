@@ -90,6 +90,26 @@ td
 .xl66
 	{mso-style-parent:style0;
 	color:black;
+	font-size:14.0pt;
+	font-weight:800;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	text-align:center;
+	white-space:normal;}
+.xl67
+	{mso-style-parent:style62;
+	color:#0563C1;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	text-align:center;}
+.xl68
+	{mso-style-parent:style0;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style0;
+	color:black;
 	font-size:18.0pt;
 	font-weight:700;
 	font-family:微软雅黑, sans-serif;
@@ -97,8 +117,9 @@ td
 	mso-number-format:"\@";
 	text-align:left;
 	vertical-align:top;
+	border:.5pt solid windowtext;
 	white-space:normal;}
-.xl67
+.xl70
 	{mso-style-parent:style0;
 	color:black;
 	font-family:微软雅黑, sans-serif;
@@ -106,30 +127,18 @@ td
 	mso-number-format:"\@";
 	text-align:left;
 	vertical-align:top;
-	white-space:normal;}
-.xl68
-	{mso-style-parent:style0;
-	color:black;
-	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;}
-.xl69
-	{mso-style-parent:style0;
-	color:black;
-	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;
-	white-space:normal;}
-.xl70
-	{mso-style-parent:style0;
-	color:black;
-	font-size:14.0pt;
-	font-weight:800;
-	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;
-	text-align:center;
+	border:.5pt solid windowtext;
 	white-space:normal;}
 .xl71
-	{mso-style-parent:style62;
-	color:#0563C1;
+	{mso-style-parent:style0;
+	color:black;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
-	text-align:center;}
+	border:.5pt solid windowtext;}
+.xl72
+	{mso-style-parent:style0;
+	color:black;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;
+	white-space:normal;}
