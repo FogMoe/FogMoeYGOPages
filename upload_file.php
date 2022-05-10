@@ -21,7 +21,7 @@ if ((($_FILES["file"]["type"] == "application/x-zip-compressed")
 		{
 			// 如果 upload 目录不存在该文件则将文件上传到 upload 目录下
 			move_uploaded_file($_FILES["file"]["tmp_name"], "UploadCardData/" . $_FILES["file"]["name"]);
-			echo "上传完毕，请联系qq群管理员审核。 ";
+			echo "上传完毕，请加qq群联系管理员以便可以及时审核！ ";
 		}
 	}
 }
