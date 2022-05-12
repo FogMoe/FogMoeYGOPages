@@ -102,7 +102,10 @@ td
 	mso-number-format:"\@";
 	text-align:left;
 	vertical-align:top;
-	border:.5pt solid windowtext;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
 	white-space:normal;}
 .xl68
 	{mso-style-parent:style0;
@@ -114,7 +117,7 @@ td
 	mso-number-format:"\@";
 	text-align:left;
 	vertical-align:top;
-	border-top:.5pt solid windowtext;
+	border-top:none;
 	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;
