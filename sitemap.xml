@@ -25,10 +25,4 @@
     <priority>1.00</priority>
   </url>
 
-  <url>
-    <loc>https://diy.fog.moe/lflist.conf</loc>
-    <changefreq>always</changefreq>
-    <priority>1.00</priority>
-  </url>
-
 </urlset>
