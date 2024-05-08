@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>FogMoeYGO - 游戏王DIY卡片在线决斗</title>
+<meta name="keywords" content="ygodiy,游戏王,YGOPro,FogMoe服,联机,服务器,DIY卡,雾萌,diy服,游戏王diy,YGOMobile">
+<meta name="description" content="FogMoeYGO，一个游戏王自定义卡片的联机对战服务器。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./res/style.css">
+</head>
+<body class="index">
+<header class="container">
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">开关导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://diy.fog.moe/">FogMoeYGO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                <li class="index"><a href="http://diy.fog.moe/">首页</a></li>
+                <li class="download"><a href="./contribution/">卡片投稿</a></li>
+                <li class="usage"><a href="./cards/">系列介绍</a></li>
+                <li class="changelog"><a href="./about/">关于</a></li> 				  	
+                </ul>
+                <p class="navbar-text navbar-right">主机信息(IP)：<kbd>ygo.fog.moe</kbd>
+                    <kbd>956</kbd></p>
+            </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <img alt="Tyr of the Nordic Champions" class="center-block img-responsive img-rounded" src="https://gcg.fog.moe/wp-content/uploads/2022/03/head.jpg">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="title">服务器DIY卡片数据</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">                        
+            <p class="buttons">
+                <a class="btn btn-default btn-sm" href="https://file1.fogmoe.top/YGODiy/FogMoeYGO-Update.exe">
+                    <span class="glyphicon glyphicon-download-alt"></span> 下载Windows版卡片数据一键安装和更新工具
+                </a>
+                <a class="btn btn-default btn-sm" href="https://file1.fogmoe.top/YGODiy/FogMoeYGOMobileV1.0.4.apk">
+                    <span class="glyphicon glyphicon-phone"></span> 下载Android版客户端
+                </a>
+                <a class="btn btn-default btn-sm" href="https://ygodiydata.github.fogmoe.top/">
+                    <span class="glyphicon glyphicon-download-alt"></span> 下载卡片数据Zip压缩包文件
+                </a>
+                <a class="btn btn-default btn-sm" href="https://github.com/scarletkc/ygopro-FogMoe-card-database">
+                    <span class="glyphicon glyphicon-inbox"></span> FogMoeYGO卡片数据GitHub库
+                </a>
+                <a class="btn btn-default btn-sm" href="https://diy.fog.moe/data/">
+                    <span class="glyphicon glyphicon-search"></span> 卡池合集表格
+                </a>
+                <a class="btn btn-default btn-sm" href="https://diy.fog.moe/about/#match">
+                    <span class="glyphicon glyphicon-bishop"></span> FogMoeYGO比赛
+                </a> 
+				<p><strong>QQ群：<a href="https://jq.qq.com/?_wv=1027&k=AfM31tgB">213534956</a></strong></p>                
+				<p>你需要使用原版 <u>YGOPro</u><i><a href="https://ygo233.com/download/ygopro"><small>(Windows安装)</small></a></i> 或 <u>YGOMobile</u> 并额外安装并使用最新版本的FogMoeYGO卡片数据进行游戏。</p>
+                <p>你也可以简单的使用FogMoe的专属 YGO安卓APP(内置一键更新和下载卡片数据)。</p>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="title">FogMoe介绍</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+			<p>本服务器主机信息<kbd>ygo.fog.moe</kbd>端口<kbd>956</kbd> 在主机密码处输入任意其他文字，可以以那个文字为房间名建立房间，让你的对手输入同样的文字，即可加入房间。在房间名前加<kbd>M#</kbd>可以设置房间为比赛模式。加<kbd>T#</kbd>可以设置房间为2vs2模式。</p>
+            <p>
+                本服务器适用于有一定游戏王OCG基础与有一定电脑常识的玩家进行游戏，对战环境速度整体偏慢，可以进行2vs2决斗。
+                <br>
+                本服务器所有卡片数据独立于游戏王OCG卡池，全部为FogMoe自定义卡片，设定独立的 禁止/限制 卡表，初始LP是8000点，初始手卡是5张，默认回合时间是300秒。
+                <br>
+                为了便于平衡卡片强度，以及增加服务器内的卡片丰富多样性。服务器内的卡片根据卡片在卡组中的重要程度、强度等分为不同稀有度，一个系列的卡片需要有<u>背景故事</u>说明。  
+                <br>              
+                服务器内一个系列的卡片或基本卡的合集称为一个FogMoe卡包。
+            </p>
+			</br>
+            <div class="row">
+			<div class="col-md-12" id="pre_update_log">
+                <div class="auto-generated">
+                <table class="table table-striped" id="pre_release_cards">
+                    <thead>
+                        <tr>
+                            <th class="col-sm-4 col-md-4">
+                                
+                                    <strong>卡包列表：</strong>
+                                
+                            </th>
+                            <th class="col-sm-7 col-md-7">
+                                
+                                    简要说明：
+                                
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#jiben">基本</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    一些基本的泛用卡片。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#zlsn">机艺</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#tongdiao">同调</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    一些同调强力泛用卡片。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#sys">乱奏</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#sys">哭泣天堂</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#daqianshijie">大千世界</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#xiaosenlin">小森林</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#kawaii">卡哇伊</a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>		
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#kawaii">封铭刻痕
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#kawaii">大地见闻
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#kawaii">壶壶散卡
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>		
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#huaxianjing">花仙精
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#shitianxie">时天械
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>		
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#shenhaiqianying">深海潜影
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>		
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#shenhaiqianying">世界法则
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#NCCAG">NCCAG
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    根据型月外传故事FATE-Extra的女主角尼禄克劳狄乌斯的故事经历创作的单轴系统。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#NCCAG">粲辉魔女
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    游历世界的魔女，拥有着特殊的魔术。可以将其他人的属性或者等级进行投影并化为自己的力量。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#yuansujingling">元素精灵
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#shanzongliezhen">闪踪列阵
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    包含“幽玄龙象”和“波动武士”两个系列：
+                                    只使用收录卡牌就能构筑卡组的系列补充包「TRACING TRACK MATRIX」全新登场！本次也收录了3种不同类型的系列，以及可用以强化卡组的泛用卡牌。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#yuansujingling">水彩童话
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#duanpianzheguang">旧影埋葬
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    车万相关。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#shizhongshilianguan">时钟试炼官
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#jixiehua">机械化
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#jiliangjiying">吉良吉影
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    我的名字是吉良吉影，年龄33岁
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#ziying">孑影
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    作者很懒，没有写。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#ziying">神圣赐予
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    冰封的战士已被唤醒，挥舞复仇之剑切碎敌人吧！收录了数个异世界风格的系列，其中亦有许多高泛用性的卡牌。
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p lang="en-US">
+                                    <a href="./cards/#jingangbuhuai">金刚不坏
+                                    </a>
+                                </p>
+                            </td>
+                            <td>
+                                <p lang="en-US">
+                                    字段：守城
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>© 2022 <a href="https://fog.moe/" target="_blank">FogMoe</a>
+            </p></div>
+        </div>
+    </div>
+</footer>
+<script src="https://file1.fogmoe.top/YGODiy/jquery.min.js"></script>
+<script src="https://file1.fogmoe.top/YGODiy/bootstrap.min.js"></script>
+</body></html>
